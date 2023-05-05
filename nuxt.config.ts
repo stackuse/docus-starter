@@ -1,4 +1,4 @@
-import { resolve, join } from "node:path";
+import { join } from 'node:path'
 import { defineNuxtConfig } from 'nuxt/config'
 
 const { NUXT_SRC_DIR, NUXT_API_KEY, NUXT_MIME_BASE_URL, NUXT_API_BASE_URL, NUXT_APP_ENV, NUXT_GTM_ID } = process.env

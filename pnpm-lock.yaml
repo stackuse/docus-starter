@@ -662,10 +662,8 @@ packages:
   /@gtm-support/vue-gtm@2.0.0(vue@3.2.47):
     resolution: {integrity: sha512-zcnCMZbjPkTGkQpMkF9U2JcCtK9JiasfoZJCYYJLGKFj0cd7abwNLPMa3/sXB89YqiFniazkP++nIzFU9kZzqw==}
     peerDependencies:
-      vue: ^3.2.0 || ^3.2.45
+      vue: ^3.2.0
     peerDependenciesMeta:
-      vue:
-        optional: true
       vue-router:
         optional: true
     dependencies:
@@ -712,10 +710,7 @@ packages:
   /@iconify/vue@4.1.1(vue@3.2.47):
     resolution: {integrity: sha512-RL85Bm/DAe8y6rT6pux7D2FJSiUEM/TPfyK7GrbAOfTSwrhvwJW+S5yijdGcmtXouA8MtuH9C7l4hiSE4mLMjg==}
     peerDependencies:
-      vue: '>=3 || ^3.2.45'
-    peerDependenciesMeta:
-      vue:
-        optional: true
+      vue: '>=3'
     dependencies:
       '@iconify/types': 2.0.0
       vue: 3.2.47
@@ -1265,10 +1260,7 @@ packages:
     resolution: {integrity: sha512-60bXtjEILon0vJ8bC1cpZyV7GiCMlLiji/g/Q55mfsTYHH/1cgTG4UCodbGAZfDouZyyG8D4IrZ3lcizp3Zp9Q==}
     engines: {node: ^14.18.0 || >=16.10.0}
     peerDependencies:
-      vue: ^3.2.47 || ^3.2.45
-    peerDependenciesMeta:
-      vue:
-        optional: true
+      vue: ^3.2.47
     dependencies:
       '@nuxt/kit': 3.4.3(rollup@3.21.5)
       '@rollup/plugin-replace': 5.0.2(rollup@3.21.5)
@@ -1792,10 +1784,7 @@ packages:
   /@unhead/vue@1.1.26(vue@3.2.47):
     resolution: {integrity: sha512-UpxQ0KGmOoiN+Dg19zto5KTcnGV5chBmgiVJTDqUF4BPfr24vRrR65sZGdMoNV7weuD3AD/K0osk2ru+vXxRrA==}
     peerDependencies:
-      vue: '>=2.7 || >=3 || ^3.2.45'
-    peerDependenciesMeta:
-      vue:
-        optional: true
+      vue: '>=2.7 || >=3'
     dependencies:
       '@unhead/schema': 1.1.26
       '@unhead/shared': 1.1.26
@@ -1834,11 +1823,9 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
-      vue: ^3.0.0 || ^3.2.45
+      vue: ^3.0.0
     peerDependenciesMeta:
       vite:
-        optional: true
-      vue:
         optional: true
     dependencies:
       '@babel/core': 7.21.8
@@ -1855,11 +1842,9 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
-      vue: ^3.2.25 || ^3.2.45
+      vue: ^3.2.25
     peerDependenciesMeta:
       vite:
-        optional: true
-      vue:
         optional: true
     dependencies:
       vite: 4.3.5(@types/node@20.0.0)
@@ -2053,10 +2038,7 @@ packages:
   /@vue/server-renderer@3.2.47(vue@3.2.47):
     resolution: {integrity: sha512-dN9gc1i8EvmP9RCzvneONXsKfBRgqFeFZLurmHOveL7oH6HiFXJw5OGu294n1nHc/HMgTy6LulU/tv5/A7f/LA==}
     peerDependencies:
-      vue: 3.2.47 || ^3.2.45
-    peerDependenciesMeta:
-      vue:
-        optional: true
+      vue: 3.2.47
     dependencies:
       '@vue/compiler-ssr': 3.2.47
       '@vue/shared': 3.2.47
@@ -8399,11 +8381,9 @@ packages:
     requiresBuild: true
     peerDependencies:
       '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0 || ^3.2.45
+      vue: ^3.0.0-0 || ^2.6.0
     peerDependenciesMeta:
       '@vue/composition-api':
-        optional: true
-      vue:
         optional: true
     dependencies:
       vue: 3.2.47
@@ -8434,10 +8414,7 @@ packages:
   /vue-router@4.1.6(vue@3.2.47):
     resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}
     peerDependencies:
-      vue: ^3.2.0 || ^3.2.45
-    peerDependenciesMeta:
-      vue:
-        optional: true
+      vue: ^3.2.0
     dependencies:
       '@vue/devtools-api': 6.5.0
       vue: 3.2.47
