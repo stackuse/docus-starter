@@ -2,4 +2,8 @@
 
 npm install -g pnpm
 pnpm install
-pnpm run build
+
+mv ../src-app ./
+mv ./src-app/.env ./
+
+pnpm build
